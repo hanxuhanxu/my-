@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主窗口">
+      <UniqueIdentifier>{fe417575-a84c-4b04-8a9b-a9e2f8c023ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INet">
+      <UniqueIdentifier>{0b02f525-aaf3-4455-8674-8adf9d269042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5加密">
+      <UniqueIdentifier>{da158780-e21c-4679-86f5-1c9577bbe179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{811d3eaf-c9be-409d-aec7-546885dc16b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户信息">
+      <UniqueIdentifier>{bdabf350-4f4f-44c3-b423-2124954f0731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大厅">
+      <UniqueIdentifier>{cb377ce4-19e1-46f1-9ac5-3976e50a79a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="我的收藏">
+      <UniqueIdentifier>{10aaeecc-a65e-4f20-88c0-944388791674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="我的关注">
+      <UniqueIdentifier>{5d3c0ef1-4dbb-40db-94e3-614aa2dbd948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="我的粉丝">
+      <UniqueIdentifier>{36bfc00d-ad86-4cde-a522-fff3989ab530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="我的博客">
+      <UniqueIdentifier>{4d937a52-4078-44fd-87bf-948a7e0575de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="写博客">
+      <UniqueIdentifier>{7871571d-bdfb-4e9e-b337-bafb12cda7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="下载文件">
+      <UniqueIdentifier>{f588f5b9-b190-4815-81b5-458999cb826d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{807cb20e-0884-4a52-9ec5-d2d2dae4c668}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5Encode.h">
+      <Filter>md5加密</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBlogDlg.h">
+      <Filter>我的博客</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDlg.h">
+      <Filter>用户信息</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFavorDlg.h">
+      <Filter>我的收藏</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunsDlg.h">
+      <Filter>我的粉丝</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNoticeDlg.h">
+      <Filter>我的关注</Filter>
+    </ClInclude>
+    <ClInclude Include="INet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPNet.h">
+      <Filter>INet</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPMediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="res.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="UserChangeDlg.h">
+      <Filter>用户信息</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoDlg.h">
+      <Filter>用户信息</Filter>
+    </ClInclude>
+    <ClInclude Include="HallDlg.h">
+      <Filter>大厅</Filter>
+    </ClInclude>
+    <ClInclude Include="Forum.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="ForumDlg.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="WritePegDlg.h">
+      <Filter>写博客</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDownDlg.h">
+      <Filter>下载文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ForumDlg.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Forum.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="HallDlg.cpp">
+      <Filter>大厅</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5Encode.cpp">
+      <Filter>md5加密</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBlogDlg.cpp">
+      <Filter>我的博客</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDlg.cpp">
+      <Filter>用户信息</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFavorDlg.cpp">
+      <Filter>我的收藏</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunsDlg.cpp">
+      <Filter>我的粉丝</Filter>
+    </ClCompile>
+    <ClCompile Include="MyNoticeDlg.cpp">
+      <Filter>我的关注</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPMediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="UserChangeDlg.cpp">
+      <Filter>用户信息</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoDlg.cpp">
+      <Filter>用户信息</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPNet.cpp">
+      <Filter>INet</Filter>
+    </ClCompile>
+    <ClCompile Include="WritePegDlg.cpp">
+      <Filter>写博客</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDownDlg.cpp">
+      <Filter>下载文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Forum.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Forum.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Forum.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\a.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
